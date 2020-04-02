@@ -1,0 +1,25 @@
+{
+    "allArticles": [
+        {
+            "id": "1",
+            "author": "Festo",
+            "content": "Plug in and let´s go: With \"plug & work\" systems, machines or individual components configure themselves independently. They integrate themselves into the production process without any preliminary work by a software developer or engineer. No software activities or engineering are needed.",
+            "imgUrl": "https://media-exp1.licdn.com/dms/image/C4D22AQFVLmYzcWss7Q/feedshare-shrink_2048_1536/0?e=1588809600&v=beta&t=oa65sV4tGrckoC17lRRGRULdsP1h3JvvwUHOGbiZhYU",
+            "link": "https://fcld.ly/c4jckum"
+        },
+        {
+            "id": "2",
+            "author": "Ineos",
+            "content": "INEOS to build new hand sanitiser factory near Middlesbrough in 10 days to make one million bottles per month. Supplies to NHS hospitals will be free of charge for the period of the coronavirus crisis",
+            "imgUrl": "https://media-exp1.licdn.com/dms/image/sync/C5627AQGNl2c68oTG0A/articleshare-shrink_800/0?e=1585940400&v=beta&t=IoYEial2t6ZNlTh58GA-h2if8n2t53ntx5IDrJiYflQ",
+            "link": "https://bit.ly/2UdWfdw"
+        },
+        {
+            "id": "3",
+            "author": "SoftUni",
+            "content": "От днес СофтУни предоставя абсолютно безплатен достъп до някои от най-популярните обучения на образователните инициативи Software University, SoftUni Digital и SoftUni Creative.С тях се надяваме, че ще ви помогнем да продължите да се развивате и усъвършенствате въпреки извънредното положение, а наред с това се надяваме и дните ви да минават по-леко и бързо. Имате възможност да се включите в обучения по програмиране, дигитален маркетинг и онлайн търговия, маркетинг комуникации, дизайн и съвременни дигитални технологии в образованието. Достъпът до всяко едно от обученията е свободен (след безплатна регистрация в съответния сайт)",
+            "imgUrl": "https://media-exp1.licdn.com/dms/image/sync/C5627AQEAT_dyf3GBIA/articleshare-shrink_1280_800/0?e=1585940400&v=beta&t=TFSPuQrRy6w0Wa_QJvfpaSth4qD-3-Nk9jxIeiYjdAk",
+            "link": "https://lnkd.in/dDpcAJP"
+        }
+    ]
+}

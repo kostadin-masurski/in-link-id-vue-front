@@ -1,25 +1,22 @@
 <template>
   <div id="app">
-    <navigation></navigation>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <home></home>
-    <foot></foot>
+    <app-navigation></app-navigation>
+    <app-home></app-home>
+    <app-footer></app-footer>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Home from './components/Home.vue'
-import Navigation from './components/core/Navigation.vue'
-import Foot from './components/core/Foot.vue'
+import AppHome from './components/Home.vue'
+import AppNavigation from './components/core/Navigation.vue'
+import AppFooter from './components/core/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    Navigation,
-    HelloWorld,
-    Home,
-    Foot
+    AppNavigation,
+    AppHome,
+    AppFooter
   }
 }
 </script>
