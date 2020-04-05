@@ -1,6 +1,6 @@
 <template>
     <div>
-        <home-article></home-article>
+        <home-article @readMore="readMoreHandler($event)"></home-article>
     </div>
 </template>
 
@@ -11,6 +11,12 @@ export default {
     name: 'Home',
     components: {
         HomeArticle
+    },
+    methods: {
+        readMoreHandler(i) {
+            console.log('in home ' + i);
+            console.log('in home ' + i);
+        }
     }
 }
 </script>
