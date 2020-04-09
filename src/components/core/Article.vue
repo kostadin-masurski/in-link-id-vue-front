@@ -1,6 +1,7 @@
 <template>
     <div>
-        <div v-for="article in Articles.allArticles" :key="article.id" class="article-container">
+        <div v-for="(article, index) in Articles.allArticles" :key="article.id"
+        @click="selectArticle(index)" :class="{active: index === selectedArticleIndex, 'article-container': true}">
             <h3>{{article.author}}</h3>
             <h4>{{article.title}}</h4>
             <div>
@@ -39,12 +40,14 @@ export default {
         };
     },
     methods: {
+        selectArticle(idx){
+            this.selectedArticleIndex = idx;
+            console.log('article ' + this.showMore);
+            this.$emit('readMore', idx);
+        },
         readMore(ev){
             ev.target.parentNode.style.display = 'none';
             ev.target.parentNode.nextSibling.style.display = 'block';
-            this.selectedArticleIndex = 0;
-            console.log('article ' + this.showMore);
-            this.$emit('readMore', 0);
         },
         readLess(ev){
             ev.target.parentNode.style.display = 'none';
@@ -72,5 +75,11 @@ export default {
     }
     .article-container{
         width: 40%;
+        padding: 1%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .active{
+        background-color: lightgray;
     }
 </style>
